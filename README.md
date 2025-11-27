@@ -46,7 +46,9 @@ Defini on: Uses fill-in-the-blank style to guide the AI’s phrasing and tone.
 Use Cases in Chatbot Design: 
  Polite customer service replies 
  Policy explana ons 
- Tone-controlled messaging 
+ Tone-controlled messaging
+<img width="692" height="871" alt="image" src="https://github.com/user-attachments/assets/f16c9535-1f34-4a0b-b779-609c91b12385" />
+
 Example Prompt: 
 “Complete this sentence: ‘If your product is defec ve, you can ___.’” 
 AI Response: 
@@ -54,7 +56,7 @@ AI Response:
 Diagram: Missing Word Prompt Flow 
 Code 
 [User Query] → [Fill-in-the-Blank Prompt] → [Contextual Comple on] 
-4. Preceding Ques on Promp ng 
+5. Preceding Ques on Promp ng 
 Defini on: Starts with a guiding ques on before delivering the main response. 
 Use Cases in Chatbot Design: 
  Personalized troubleshoo ng 
