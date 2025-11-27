@@ -10,15 +10,21 @@ Defini on: Direct instruc ons that clearly specify the task the AI should perfor
 Use Cases in Chatbot Design: 
  Troubleshoo ng common issues 
  Answering FAQs 
- Providing step-by-step guides 
+ Providing step-by-step guides
+
+
 Example Prompt: 
-“List the steps to connect a Bluetooth speaker to a smartphone.” 
+“List the steps to connect a Bluetooth speaker to a smartphone.”
+
+
 AI Response: 
 “Sure! 
 1. Turn on your Bluetooth speaker. 
 2. Enable Bluetooth on your smartphone. 
 3. Select the speaker from the list of available devices. 
-4. Tap ‘Connect’. Let me know if it doesn’t pair!” 
+4. Tap ‘Connect’. Let me know if it doesn’t pair!”
+
+
 Diagram: Straigh orward Prompt Flow 
 Code 
 [User Query] → [Direct Instruc on Prompt] → [Clear Response] 
@@ -47,31 +53,43 @@ Use Cases in Chatbot Design:
  Polite customer service replies 
  Policy explana ons 
  Tone-controlled messaging
-<img width="692" height="871" alt="image" src="https://github.com/user-attachments/assets/f16c9535-1f34-4a0b-b779-609c91b12385" />
 
-Example Prompt: 
 “Complete this sentence: ‘If your product is defec ve, you can ___.’” 
+
+
 AI Response: 
 “If your product is defec ve, you can request a replacement or refund within 7 days of delivery.” 
 Diagram: Missing Word Prompt Flow 
+
+
 Code 
 [User Query] → [Fill-in-the-Blank Prompt] → [Contextual Comple on] 
+
+
 5. Preceding Ques on Promp ng 
 Defini on: Starts with a guiding ques on before delivering the main response. 
 Use Cases in Chatbot Design: 
  Personalized troubleshoo ng 
  Order tracking 
- Mul-step interac ons 
+ Mul-step interac ons
+
+ 
 Example Prompt: 
 “First ask for the order ID, then explain how to track the order.” 
+
+
 AI Response: 
 “Could you please provide your order ID? Once I have that, I’ll help you track your package and share 
 the delivery status.” 
 Diagram: Preceding Ques on Prompt Flow 
 Code 
 [User Query] → [Guiding Ques on] → [Contextual Response] 
+
+
 Integrated Chatbot Flow Using All Techniques 
 Let’s combine all four techniques into a sample chatbot conversa on: 
+
+
 User: “I want to know the difference between your support plans.” Bot (Tabular Format Promp ng): 
 Plan Type Support Hours Contact Methods Cost 
 Basic 
@@ -80,17 +98,24 @@ Premium 24/7
 Email only 
 ₹499/mo 
 Chat, Email, Phone ₹999/mo 
+
+
 User: “How do I reset my router?” Bot (Straigh orward Prompt): 
+
 “To reset your router: 
 1. Unplug it from power. 
 2. Wait 30 seconds. 
 3. Plug it back in. 
-4. Wait for the lights to stabilize.” 
+4. Wait for the lights to stabilize.”
+
+
 User: “Can I return a damaged item?” Bot (Missing Word Promp ng): 
 “If your item is damaged, you can ini ate a return within 7 days of delivery.” 
 User: “Where is my order?” Bot (Preceding Ques on Promp ng): 
 “Could you share your order ID? I’ll check the status and update you right away.” 
 Technique 
+
+
 Role Promp ng 
 Chain-of-Thought 
 Prompt 
